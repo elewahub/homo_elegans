@@ -1,5 +1,10 @@
 setwd('/Users/ahmedelewa/Google Drive/My Drive/01_projects/074_augsburg/05_BIO474manuscript/homo_elegans/')
 
+##################################################################################################################
+###################              Code associated with Augsburg BIO474 Manuscript 2025          ###################
+###################                 For questions: Ahmed Elewa, elewa@email.com                ###################
+##################################################################################################################
+
 ###################
 #### Areflexia ####
 ###################
@@ -124,7 +129,7 @@ for (w in weeks) {
                                   expression(italic(let-2(ts)) ~ '15' * degree * 'C'),
                                   expression(italic(let-2(ts)) ~ '20' * degree * 'C'),
                                   expression(italic(let-2(ts)) ~ '25' * degree * 'C')),
-         col = c('black', '#4575B4', '#FDAE61', '#D73027'),
+         col = c('black', '#4575B4', '#FDAE61', '#D73026'),
          lty = 1, lwd = 3, bty = 'n', cex = 0.8)
 }
 dev.off()
